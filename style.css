@@ -9,6 +9,10 @@
         background-color: #ffffff79;
     }
 
+    .container .profile-image{
+        width: 150px;
+        height: 200px;
+    }
     .starter-template {
         padding: 40px 15px;
         text-align: center;
@@ -83,6 +87,11 @@
         width: 100%;
         opacity: 0.85;
     }
+    .portfolio-img-desc a, p{
+        text-decoration: none;
+        text-decoration-line: none;
+        color: blue;
+    }
 
     .splash h1 {
         font-size: 40px;
@@ -97,7 +106,7 @@
     h1.intro-text
     {
         margin:0;
-        color:#fff;
+        color:#fff;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .splash .lead {
         font-size: 30px;
@@ -224,6 +233,9 @@
     hr.star-portfolio {
         border-color: black;
     }
+    hr.star-portfolio:hover {
+        border-color: red;
+    }
     hr.star-portfolio:after {
         color: black;
         background-color: #eee;
@@ -232,36 +244,45 @@
         color: #fff;
         background-color: rgb(13, 79, 136);
     }
-    p.content-text { font-size: 25px; }
+    p.content-text { 
+        font-size: 25px;
+        color: #eee;
+    }
 
     /* PORTFOLIO */
     .portfolio-card{
-        box-shadow: 0px 2px 5px #888888;
+        box-shadow: 3px 2px 5px #888888;
         background: #eee;
-        border-radius: 4px;
-
+        border-radius: 5px;
+        
     }
+    
 
     .portfolio-card:hover{
         box-shadow: 0px 10px 10px #888888;
-    cursor: pointer
+        cursor: pointer;
+        
     }
 
     .portfolio-container-holder{
         background: #eee;
         padding-bottom: 20px;
+        border-radius: 5px;
     }
 
 
     .portfolio-card-holder{
         padding: 5px;
         margin-bottom: 5px;
+        border-radius: 5px;
     }
 
     .portfolio-img{
         width: 100%;
         border-radius: 4px 4px 0 0;
     }
+
+     
 
     .portfolio-img-desc{
         position: relative;
@@ -272,6 +293,7 @@
         color: #000;
         text-align: center;
         padding: 5px;
+        border-radius: 5px;
     }
 
     /* Contact */
